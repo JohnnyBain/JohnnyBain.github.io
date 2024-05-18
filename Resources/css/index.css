@@ -1,0 +1,26 @@
+.banner
+{
+    background-color: blueviolet;
+    color: antiquewhite;
+    margin-top: 75px;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#profilePic
+{
+    height: 200px;
+    width: 200px;
+}
+
+#DSTitle
+{
+    color: blueviolet;
+    font-size: 60px;
+
+}
+
+.bold
+{
+    font-weight: 900;
+}
