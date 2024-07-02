@@ -17,7 +17,20 @@
 {
     color: blueviolet;
     font-size: 60px;
+    text-align: center;
+}
 
+.tipTitle
+{
+  text-decoration: underline;
+  font-size:25px;
+
+}
+
+.codeExample
+{
+  color: blueviolet;
+  font-weight: 900;
 }
 
 .bold
