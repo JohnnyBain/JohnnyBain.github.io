@@ -4,35 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Johnny's Portfolio</title>
-    <link rel="stylesheet" href="./Resources/css/index.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <!-- banner section-->
     <div class="banner">
         <h1>Johnny's landing banner</h1>
-        <img id="profilePic" src="./Resources/images/RC.jpg" alt="">
+        <img id="profilePic" src="./RC.jpg" alt="">
         <p>Hi there, I'm Johnny and this is my first draft of my portfolio website.</p>
         <button>Subscribe to be notified of any site updates and new content!</button>
     </div>
     <!-- Gritter section-->
-    <span class="bold" id="DSTitle" >Discussion board</span>
-    <p class="bold">Here is a discussion board for project suggestions and user feedback</p>
+    <span class="bold" id="DSTitle">Web Dev Cheat Sheet</span>
+    <p class="bold">Here is a collection of things to refer back to when developing in html and css.</p>
+    <div>
+      <span class='tipTitle'>Colours</span>
+      <p> Colours can be represented in lots of ways in css. Some provide more capabilities than others.</p>
+      <div>
+          <p><span class='bold'>Name</span> - There are a set of colours that can be referenced with a plain english name. Some examples include <span  class='codeExample'> blue, red, blueviolet</span></p>
+          <p><span class='bold'>HexCode</span> - Colours can also be represented by a hexadecimal code. These should be written with a hashtag before like these examples. <span  class='codeExample'> #CB3EBD, #71CE90, #9B2020</span></p>
+          <p><span class='bold'>RGBA</span> - a great method for  representing colours in css that also allows you to  control transparency is by using  rgba. The 3 values describe the quantity of red, green and blue. Each of the values have a max of 255 except for the last value (alpha). Alpha is entered as a percentage and controlls the opacity of the text. One example of a colour represented with rgba is  <span  class='codeExample'> rgba(255, 99, 71, 0.6)</span></p>
+      </div>
+    </div>
+    
+
     <form action="">
         <input type="text"/>
         <input type="submit" value="Submit">
     </form>
-    <div>
-        <ul>
-            <li>
-                <div></div><span>Hey there it's Johnny again.</span>
-            </li>
-            <li>
-                <div></div><span>Hey there it's Johnny again.</span>
-            </li>
-            <li>
-                <div></div><span>Hey there it's Johnny again.</span>
-            </li>
-        </ul>
-    </div>
 </body>
 </html>
